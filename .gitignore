@@ -37,3 +37,13 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+#folders
+
+barn_owl_audio
+barn_owl_calls
+bird_audio
+herring_gull_audio
+herring_gull_calls
+robin_audio
+robin_calls
