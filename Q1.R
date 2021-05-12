@@ -122,7 +122,7 @@ file.remove(paste0("herring_gull_audio/", unwanted_mp3))
 # visualising and analysing each bird call ----
 
 # barn owl calls visualised ----
-barn_owl_wav <- readWave("barn_owl_audio/Tytoalba-calls_25594.wav")
+barn_owl_wav <- readWave("barn_owl_audio/Tytoalba-calls_475201.wav")
 barn_owl_wav
 
 # plotting
@@ -156,7 +156,7 @@ oscillo(herring_gull_wav, from = 0.3, to = 0.40)
 # creating spectrograms for each bird ----
 
 # creating spectrogram for barn owl
-SpectrogramSingle(sound.file = "barn_owl_audio/Tytoalba-calls_25594.wav", min.freq = 1000, 
+SpectrogramSingle(sound.file = "barn_owl_audio/Tytoalba-calls_475201.wav", min.freq = 1000, 
                   max.freq = 5000, Colors = "Colors") 
 
 # gg plot version
